@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <video autoplay width="320" height="240" controls loop>
+        <source src="" type="video/mp4">
+        <source src="" type="video/ogg">
+            Your browser does not support video element
+    </video> -->
+    <canvas id="myCanvas" width="500" height="400" style="border: 1px solid;">
+    </canvas>
+    <img id="image" src="./assets/Flower.jpg" alt="flower"/>
+    <script>
+    var canvas=document.getElementById('myCanvas');
+    // if(canvas.getContext)
+    window.onload= function()
+    {
+        var ctx= canvas.getContext('2d');
+        var img=document.getElementById('image');
+        ctx.drawImage(img, 10, 10);
+        ctx.fillText("Sample", 30, 30);
+        // ctx.fillStyle = 'rgb(200,0,0)';
+        // ctx.fillRect(10,10,50,50);
+
+        // ctx.fillStyle = 'rgb(0,0,200,0.5)';
+        // ctx.fillRect(30,30,50,50);
+    };
+//     $.getJSON("/data/products.json",(products)=>{
+// $.each(products, function(index,item){
+// let row= '<tr>
+//     <td>${item.id}</td>'
+// })
+//     });
+$.ajax({
+    url:"data/products.json",
+    method:"get",
+    contentType:"application/json",
+    dataType:"json",
+    success:function(products){
+        $.each(products, function(index, item){
+            let row=``;
+        });
+    }
+});
+    </script>
+</body>
+</html>

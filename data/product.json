@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "name":"Mi 7",
+        "price":19999,
+        "quantity":10,
+        "category":"mobile",
+        "imageUrl":"./assets/xiaomi-mi7.webp",
+        "description":"Smart Phone from Xiomi, Best in the market"
+    },
+    {
+        "id":2,
+        "name":"Galaxy S7",
+        "price":22499,
+        "quantity":50,
+        "category":"mobile",
+        "imageUrl":"./assets/samsung-galaxy-s7--.jpg",
+        "description":"Smart Phone from Samsung"
+    },
+    {
+        "id":3,
+        "name":"HP ENVY 13",
+        "price":49499,
+        "quantity":30,
+        "category":"Laptop",
+        "imageUrl":"./assets/c06234468_1750x1285.jpg",
+        "description":"Best Thin laptop from HP"
+    }
+]

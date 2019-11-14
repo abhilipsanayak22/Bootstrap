@@ -1,0 +1,16 @@
+{
+  "name": "mybasicapp",
+  "version": "1.0.0",
+  "description": "bootstrap and HTML 5 demo",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhilipsa",
+  "license": "ISC"
+}
